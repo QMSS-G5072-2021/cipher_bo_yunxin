@@ -15,9 +15,9 @@ def cipher(text, shift, encrypt = True):
       The new text after encrypting or decrypting
     Examples
     --------
-    >>> cipher('test', 1, encrypt=True)
+    >>> cipher('test', 1, encrypt = True)
     'uftu'
-    >>> cipher('test', 1, encrypt=False)
+    >>> cipher('test', 1, encrypt = False)
     'sdrs'
     """
     alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'

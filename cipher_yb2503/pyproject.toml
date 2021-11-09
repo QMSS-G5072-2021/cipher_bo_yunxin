@@ -4,12 +4,16 @@ version = "0.1.0"
 description = "We are adding cipher to the package"
 authors = ["Yunxin Bo"]
 license = "MIT"
-readme = "README.md"
+readme = "README.md" 
+homepage = "https://github.com/QMSS-G5072-2021/cipher_bo_yunxin"
+repository = "https://github.com/QMSS-G5072-2021/cipher_bo_yunxin"
 
 [tool.poetry.dependencies]
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
+pytest-cov = "^3.0.0"
+Sphinx = "^4.2.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
